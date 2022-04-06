@@ -20,3 +20,13 @@ La ventaja de excel es que te va a permitir procesar la información, hacer cál
 
 En este dataset se puede identificar los órdenes o pedidos que los usuarios hacen a Alibaba
 
+# Clase 2 - Barra de menú y sus funcionalidades
+Guardar el archivo en file/Save as/.xlsx
+En la celda en la que estés parada se hacen los respectivos cambios de letra-tamaño
+Si hundes la letra te selecciona la columna, si hundes el número te selecciona toda la fila. 
+
+Para poder visualizar el signo $ lo que tienes que hacer es seleccionar columna/data/texto en columna/paso 3/(,) a (.)
+Seleccionar la columna (sin título) click en mouse y bajas/ control+shift bajas al último dato
+Para restar un valor se debe variable 1(letra#)-variable 2(letra#)
+Copiar y pergar FÓRMULA (CLICK derecho copy paste)
+Copiar y pegar el mismo resulta (barra de menú/paste/paste value)
