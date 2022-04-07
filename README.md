@@ -30,3 +30,19 @@ Seleccionar la columna (sin título) click en mouse y bajas/ control+shift bajas
 Para restar un valor se debe variable 1(letra#)-variable 2(letra#)
 Copiar y pergar FÓRMULA (CLICK derecho copy paste)
 Copiar y pegar el mismo resulta (barra de menú/paste/paste value)
+
+##Clase 3 - Filtros y herramientas de revisión
+Seleccionar todo/Insert/Table
+Data/Filter/Flecha/permite elegir una fila y visualiszarla sola en la tabla 
+
+*Click advance para elegir fechas*
+
+
+
+
+
+
+
+
+
+
