@@ -37,6 +37,17 @@ Data/Filter/Flecha/permite elegir una fila y visualiszarla sola en la tabla
 
 *Click advance para elegir fechas*
 
+# Clase 4 - Funcionalidades de un libro y sus hojas
+Hojas (sheets) 
+Son en la parte inferior y están compuestas por celdas
+Cambiar el nombre/color/eliminar/mover la hoja: doble click o click derecho
+Se puede seleccionar múltiples hojas con CTRL + click y eliminarla al mismo tiempo
+
+
+
+
+
+
 
 
 
