@@ -49,7 +49,7 @@ Si se busca inmovilizar una columna en específico solo es pararse en ella y dar
 comando A para seleccionar todos los datos
 
 Si añades los filtros y le pones color a las celdas, excel te va a permitir luego ordenar tú hoja por colores
-![Resumen clase] (https://github.com/otravalentina/Curso-de-excel/blob/main/Screen%20Shot%202022-04-22%20at%201.48.04%20PM.png)
+![Resumen clase](https://github.com/otravalentina/Curso-de-excel/blob/main/Screen%20Shot%202022-04-22%20at%201.48.04%20PM.png)
 
 
 
