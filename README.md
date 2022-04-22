@@ -43,6 +43,16 @@ Son en la parte inferior y están compuestas por celdas
 Cambiar el nombre/color/eliminar/mover la hoja: doble click o click derecho
 Se puede seleccionar múltiples hojas con CTRL + click y eliminarla al mismo tiempo
 
+# Clase 5 - Herramientas para trabajar con bases de datos
+Si se van a hacer cambios en la hoja pero no quieres que se cambien algunos datos toca ir a view/freeze y elegir la mejor opción 
+Si se busca inmovilizar una columna en específico solo es pararse en ella y darle click para que se mantenga a pesar de mover el doc
+comando A para seleccionar todos los datos
+
+Si añades los filtros y le pones color a las celdas, excel te va a permitir luego ordenar tú hoja por colores
+
+
+
+
 
 
 
