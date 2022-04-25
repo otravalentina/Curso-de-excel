@@ -51,6 +51,12 @@ comando A para seleccionar todos los datos
 Si añades los filtros y le pones color a las celdas, excel te va a permitir luego ordenar tú hoja por colores
 ![Resumen clase](https://github.com/otravalentina/Curso-de-excel/blob/main/Screen%20Shot%202022-04-22%20at%201.48.04%20PM.png)
 
+# Clase 6 - Consulta información 
+Buscar v: sirve para hojas que tienen miles de datos y permite buscar el valor de la orden específica, para poder copiar y pegarla en la hoja donde queremos tener la información
+  =vlookup(valor buscado "# de la celda";matriz o tabla "seleccionar todos los datos que se buscan tener";columna "el valor del flete/shipping fee;coincidencia exacta "0")
+  
+Puedes pegar la fórmula (no el dato) sosteniendo el mouse y seleccionando todas las celdas que quieres llenar. 
+
 
 
 
