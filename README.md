@@ -53,10 +53,28 @@ Si añades los filtros y le pones color a las celdas, excel te va a permitir lue
 
 # Clase 6 - Consulta información 
 Buscar v: sirve para hojas que tienen miles de datos y permite buscar el valor de la orden específica, para poder copiar y pegarla en la hoja donde queremos tener la información
-  =vlookup(valor buscado "# de la celda";matriz o tabla "seleccionar todos los datos que se buscan tener";columna "el valor del flete/shipping fee;coincidencia exacta "0")
+  =vlookup(valor buscado "# de la celda";matriz o tabla "seleccionar todos los datos que se buscan tener";columna "el valor del flete/shipping fee;coincidencia exacta "False")
   
-Puedes pegar la fórmula (no el dato) sosteniendo el mouse y seleccionando todas las celdas que quieres llenar. 
+Valor buscado: Lo que necesitas buscar.
+Matriz de tabla: En donde lo buscaras.
+Indicador de la columna: Cuando encuentres lo que buscas, que tomaras de esa tabla. Siempre identifica los encabezados de la tabla en la que estas buscando para poder contar la columna que necesitas.
+Rango: Solo tienes dos opciones: Verdadero o Falso. El Verdadero es cuando ocupas algo similar a lo que buscas, y el Falso es cuando es exactamente lo que buscas.
+  
+Puedes pegar la fórmula (no el dato) sosteniendo el mouse y seleccionando todas las celdas que quieres llenar. O copiar la fórmula y con el mini cuadrado bajar hasta la celda que quieres llenar. 
 
+*Aclaración* si escriben un 1 en excel y le ponen formato fecha veran que se convierte en “domingo, 1 de enero de 1900”.
+Esto por que las fecha excel las entiende de forma numérica como la cantidad de días que han pasado desde el 01-01-1900.
+
+# Clase 7 - Valores absolutos y relativos en fórmulas
+
+Ctrl + espacio: selecciona la columna 
+Shift (dereacha) + espacio: selecciona la fila
+
+para añadir fila arriba ctrl + click y le das en "insert"
+
+Fijar.- Representado por el símbolo $, nos ayuda a fijar ya sea una columna o fila.
+Fijar Columna ($A) .- Esto hace que la formula tome información de diferentes filas sin alterar la información de una columna en especial.
+Fijar Filas ($1) .- Al contrario Fijar una fila hace que la formula tome información de diferentes columnas sin alterar la información de una fija específica.
 
 
 
