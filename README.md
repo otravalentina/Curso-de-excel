@@ -76,6 +76,7 @@ Fijar.- Representado por el símbolo $, nos ayuda a fijar ya sea una columna o f
 Fijar Columna ($A) .- Esto hace que la formula tome información de diferentes filas sin alterar la información de una columna en especial.
 Fijar Filas ($1) .- Al contrario Fijar una fila hace que la formula tome información de diferentes columnas sin alterar la información de una fija específica.
 
+*Si se busca usar buscarv es necesario que los datos que se encuentres en una columna después sino sale N/A*
 
 
 
