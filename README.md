@@ -78,6 +78,27 @@ Fijar Filas ($1) .- Al contrario Fijar una fila hace que la formula tome informa
 
 *Si se busca usar buscarv es necesario que los datos que se encuentres en una columna después sino sale N/A*
 
+# Clase 8 - Consultas horizontales en BuscarH y tipos de errores en las fórmulas
+
+Pegar información de manera horizontal:
+- copiar y pegar cuadro/información
+- click derecho en otra celda
+- special paste
+- special paste
+- transpose
+
+ =Hlookup(valor buscado "# de la celda";matriz o tabla "seleccionar todos los datos que se buscan tener";fila "el valor del flete/shipping fee;coincidencia exacta "False")
+ 
+ Errores comunes:
+ 1. N/A: Te dice que ese dato no existe en el archivo original (de donde sacas la información)
+ 2. Nombre?: Cuando hay un error en la fórmula (se te fue una letra o número)
+ 3. REF!: Cuando intentas hacer una resta/suma/división/multiplicación con una celda que no existe en la hoja
+ 4. DIV/=: Cuando se intenta dividir cualquier número por 0 
+ 5. VALOR!: Las celdas que se relacionan no corresponden a valores que se puedan hcer funciones matemáticas
+
+
+ 
+
 
 
 
