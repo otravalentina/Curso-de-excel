@@ -51,7 +51,7 @@ comando A para seleccionar todos los datos
 Si añades los filtros y le pones color a las celdas, excel te va a permitir luego ordenar tú hoja por colores
 ![Resumen clase](https://github.com/otravalentina/Curso-de-excel/blob/main/Screen%20Shot%202022-04-22%20at%201.48.04%20PM.png)
 
-# Clase 6 - Consulta información 
+# Clase 6/7/8 - Consulta información 
 Buscar v: sirve para hojas que tienen miles de datos y permite buscar el valor de la orden específica, para poder copiar y pegarla en la hoja donde queremos tener la información
   =vlookup(valor buscado "# de la celda";matriz o tabla "seleccionar todos los datos que se buscan tener";columna "el valor del flete/shipping fee;coincidencia exacta "False")
   
@@ -65,7 +65,7 @@ Puedes pegar la fórmula (no el dato) sosteniendo el mouse y seleccionando todas
 *Aclaración* si escriben un 1 en excel y le ponen formato fecha veran que se convierte en “domingo, 1 de enero de 1900”.
 Esto por que las fecha excel las entiende de forma numérica como la cantidad de días que han pasado desde el 01-01-1900.
 
-# Clase 7 - Valores absolutos y relativos en fórmulas
+# Clase 9 - Valores absolutos y relativos en fórmulas
 
 Ctrl + espacio: selecciona la columna 
 Shift (dereacha) + espacio: selecciona la fila
@@ -78,7 +78,7 @@ Fijar Filas ($1) .- Al contrario Fijar una fila hace que la formula tome informa
 
 *Si se busca usar buscarv es necesario que los datos que se encuentres en una columna después sino sale N/A*
 
-# Clase 8 - Consultas horizontales en BuscarH y tipos de errores en las fórmulas
+# Clase 10 - Consultas horizontales en BuscarH y tipos de errores en las fórmulas
 
 Pegar información de manera horizontal:
 - copiar y pegar cuadro/información
@@ -96,6 +96,35 @@ Pegar información de manera horizontal:
  4. DIV/=: Cuando se intenta dividir cualquier número por 0 
  5. VALOR!: Las celdas que se relacionan no corresponden a valores que se puedan hcer funciones matemáticas
 
+# Clase 11 - Formatos de celdas y archivos
+La brochita al lado izquierdo de excel
+1 click sobre la celda que que quieres repetir su formato
+2 clicks para que te deje pegar el formato en varias celdas
+
+Dejar el rastreo de los datos si vas a estar actualizando las hojas en las que trabajaste. Si e cambio, los valores en tú hoja son fijos no hay necesidad de dejar el historial de tus operaciones. 
+
+Para la segunda opción solo se debe copiar y pararse donde exactamente se necesita pegar todo y pegar especial (valores)
+
+Códigos
+Calcular cuántos días han pasado desde el despacho: +TODAY()- Día despachado 
+Restar: L3-K3 (escribir celda o hacerle click)
+
+Buscar y Reemplazar: Home/Find&Select -> Replace (por lo que sea que quieras poner)
+
+# Clase 12 - Malas prácticas al organizar una base de datos 
+Malas prácticas al organizar una base de datos.
+Títulos innecesarios.- Una mala práctica es crear diferentes títulos para enlistar fechas en lugar de tener una sola fila de referencia.
+Ejemplo: Títulos de celdas “18/Oct 19/Oct 20/Oct” en lugar de tener una celda de referencia como ser “Fecha de Orden” donde se almacenaría todas esas fechas. La segunda celda es muy útil para manejar base de datos, la primera no.
+
+Formato de Celda.- Otro error común tener una celda en un formato diferente que no nos permita realizar una acción.
+Ejemplo: Tener una celda en formato texto y que esto nos impida realizar operaciones en ella.
+
+El enemigo invisible.- Otro error común se encuentra en los nombres dentro de una casilla, esta puede contener espacios que son invisibles a simple vista pero que nos causan problemas al tener una base de datos. Solución: Usa la formula =espacios(texto) en texto pones la casilla donde quieres quitar los espacios y listo. (En otras versiones de Excel =ESPACIOS esta con el nombre de =RECORTAR)
+
+Ceros delante de números.- Al momento de crear base de datos Excel elimina los ceros que estén delante de números automáticamente. 
+Solución.- Pon un apostrofe (’) delante del numero, esto no te permitirá hacer operaciones con ese dato, pero si realizar búsquedas para las base de datos.
+
+la fórmula espacio la encuentran como TRIM
 
  
 
