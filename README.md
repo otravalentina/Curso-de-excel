@@ -126,9 +126,19 @@ Solución.- Pon un apostrofe (’) delante del numero, esto no te permitirá hac
 
 la fórmula espacio la encuentran como TRIM
 
+ #Clase 13 - Listas desplegables
  
+En una nueva hoja de cálculo, escriba las entradas que quiera que se muestren en la lista desplegable. Le recomendamos que muestre los elementos de lista en una tabla de Excel. Si no lo hace, puede convertir rápidamente la lista en una tabla si selecciona cualquier celda del rango y presiona Ctrl+T.
 
+Haga clic en la celda de la hoja de cálculo donde quiera crear la lista desplegable.
 
+Vaya a la pestaña Datos de la cinta de opciones y, después, seleccione Validación de datos.
+
+Nota: Si no puede hacer clic en Validación de datos, es posible que la hoja de cálculo esté protegida o compartida. Desbloquee áreas específicas del libro protegido o deje de compartir la hoja de cálculo y, después, vuelva a intentar realizar el paso 3.
+
+En la pestaña Configuración, en el cuadro Permitir, haga clic en Lista. Haga clic en el cuadro Origen y, después, seleccione el rango de lista. Colocaremos el nuestro en una hoja denominada “Ciudades”, en el rango A2:A9. Como puede ver, no incluimos la fila de encabezado porque no queremos que sea una opción de selección: Active la casilla Celda con lista desplegable y Haga clic en la pestaña Mensaje de entrada.
+
+lista desplegable con opciones: solo se debe seleccionar los opciones cambiarles el nombres A5 -> "Procesos" de esa forma cuando se haga la lista desplegable tendrá múltiples opciones. 
 
 
 
