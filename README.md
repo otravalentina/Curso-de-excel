@@ -126,7 +126,7 @@ Solución.- Pon un apostrofe (’) delante del numero, esto no te permitirá hac
 
 la fórmula espacio la encuentran como TRIM
 
- #Clase 13 - Listas desplegables
+ # Clase 13 - Listas desplegables
  
 En una nueva hoja de cálculo, escriba las entradas que quiera que se muestren en la lista desplegable. Le recomendamos que muestre los elementos de lista en una tabla de Excel. Si no lo hace, puede convertir rápidamente la lista en una tabla si selecciona cualquier celda del rango y presiona Ctrl+T.
 
