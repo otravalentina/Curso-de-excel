@@ -140,6 +140,15 @@ En la pestaña Configuración, en el cuadro Permitir, haga clic en Lista. Haga c
 
 lista desplegable con opciones: solo se debe seleccionar los opciones cambiarles el nombres A5 -> "Procesos" de esa forma cuando se haga la lista desplegable tendrá múltiples opciones. 
 
+# Clase 14 - Cómo separar y juntar texto
+
+Remover las fórmulas y dejar solo el resultadi: Selecciona las fórmulas que quieres cambiar con Cmd + C, luego Home > Paste > Values
+Para separar 1 dato número como una fecha: +month(celda de la fecha) > inicio > formato fecha
+Para separar 1 palabra: señalar la columna > datos > text to columns > next > space > finish
+Para concatenar (unir) datos: =concatenate(dato 1; dato 2; dato 3)
+Para conatenar (unir) datos con espacios: =concatenate(dato 1; " "; dato 2; " "; dato 3)
+Separar el dato a la derecha: =right(dato a la derecha; # de caracteres que se quieren coger del dato)
+Separar el dato a la izquierda: = left(dato a la izquierda; # de caracteres que se quieren coger del dato)
 
 
 
