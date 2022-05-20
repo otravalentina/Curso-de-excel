@@ -143,15 +143,30 @@ lista desplegable con opciones: solo se debe seleccionar los opciones cambiarles
 # Clase 14 - Cómo separar y juntar texto
 
 Remover las fórmulas y dejar solo el resultadi: Selecciona las fórmulas que quieres cambiar con Cmd + C, luego Home > Paste > Values
+
 Para separar 1 dato número como una fecha: +month(celda de la fecha) > inicio > formato fecha
+
 Para separar 1 palabra: señalar la columna > datos > text to columns > next > space > finish
+
 Para concatenar (unir) datos: =concatenate(dato 1; dato 2; dato 3)
+
 Para conatenar (unir) datos con espacios: =concatenate(dato 1; " "; dato 2; " "; dato 3)
+
 Separar el dato a la derecha: =right(dato a la derecha; # de caracteres que se quieren coger del dato)
+
 Separar el dato a la izquierda: = left(dato a la izquierda; # de caracteres que se quieren coger del dato)
 
+# Clase 15 - Fórmulas básicas
 
+Sumar: =SUM(dato1;dato2 "o" seleccionar toda la fila) 
 
+Promedio: =AVERAGE(dato1;dato2 "o" seleccionar toda la fila)
+
+Contar: =COUNT(dato1;dato2 "o" seleccionar toda la fila)
+
+Redondear: =ROUND(dato1;# de decimales)
+
+En la misma celda sumar/redondear: =ROUND(SUMA(dato1;dato2);0)
 
 
 
