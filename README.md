@@ -158,6 +158,8 @@ Separar el dato a la izquierda: = left(dato a la izquierda; # de caracteres que 
 
 # Clase 15 - Fórmulas básicas
 
+Estás operaciones se hace de manera absoluta
+
 Sumar: =SUM(dato1;dato2 "o" seleccionar toda la fila) 
 
 Promedio: =AVERAGE(dato1;dato2 "o" seleccionar toda la fila)
@@ -168,8 +170,19 @@ Redondear: =ROUND(dato1;# de decimales)
 
 En la misma celda sumar/redondear: =ROUND(SUMA(dato1;dato2);0)
 
+# Clase 16 - Fórmulas con SUMAR.SI, PROMEDIO.SI y CONTAR.SI
 
+Estás operaciones se hace de manera relativa
 
+Seleccionar datos > datos > filtrar > dato buscado 
+
+Sumar.Si/SUM.IF (sumar con condiciones): (rango que va a estar el criterio; "Apple"; rango de las unidades)
+
+Promedio.Si/AVERAGEIF: (rango; "Criterio"; rango de las unidades)
+
+Contar.Si/COUNTIF: (rango; "Criterio")
+
+Función de número aleatorio en inglés es +RANDBETWEEN()
 
 
 
