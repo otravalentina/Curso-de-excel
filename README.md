@@ -148,7 +148,7 @@ Para separar 1 dato número como una fecha: +month(celda de la fecha) > inicio >
 
 Para separar 1 palabra: señalar la columna > datos > text to columns > next > space > finish
 
-Para concatenar (unir) datos: =concatenate(dato 1; dato 2; dato 3)
+Para concatenar (unir) datos: =concatenate/Concatenar(dato 1; dato 2; dato 3)
 
 Para conatenar (unir) datos con espacios: =concatenate(dato 1; " "; dato 2; " "; dato 3)
 
@@ -160,13 +160,13 @@ Separar el dato a la izquierda: = left(dato a la izquierda; # de caracteres que 
 
 Estás operaciones se hace de manera absoluta
 
-Sumar: =SUM(dato1;dato2 "o" seleccionar toda la fila) 
+Sumar: =SUM/SUMAR(dato1;dato2 "o" seleccionar toda la fila) 
 
-Promedio: =AVERAGE(dato1;dato2 "o" seleccionar toda la fila)
+Promedio: =AVERAGE/PROMEDIO(dato1;dato2 "o" seleccionar toda la fila)
 
-Contar: =COUNT(dato1;dato2 "o" seleccionar toda la fila)
+Contar: =COUNT/CONTAR(dato1;dato2 "o" seleccionar toda la fila)
 
-Redondear: =ROUND(dato1;# de decimales)
+Redondear: =ROUND/REDONDEAR(dato1;# de decimales)
 
 En la misma celda sumar/redondear: =ROUND(SUMA(dato1;dato2);0)
 
@@ -184,9 +184,17 @@ Contar.Si/COUNTIF: (rango; "Criterio")
 
 Función de número aleatorio en inglés es +RANDBETWEEN()
 
+# Clase 17 - Nombrar rangos y hacer operaciones
 
+Se pueden nombrar los rangos al seleccionarlos y cambiarles el nombre en la parte superior izquierda. 
 
+Al realizar la fórmula:
++SUMAR.SI(Proveedores;"Apple";Cantidad) me arrojaba siempre como resultado = 0, 
+ la solución fue simplemente eliminar todos los espacios de la hoja de excel.
 
+Eliminar espacios: control + f y reemplazar todo por nada, automáticamente se reemplazan. 
+
+# Clase 18 - Promedio ponderado
 
 
 
