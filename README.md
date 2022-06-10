@@ -127,7 +127,6 @@ Solución.- Pon un apostrofe (’) delante del numero, esto no te permitirá hac
 la fórmula espacio la encuentran como TRIM
 
  # Clase 13 - Listas desplegables
- 
 En una nueva hoja de cálculo, escriba las entradas que quiera que se muestren en la lista desplegable. Le recomendamos que muestre los elementos de lista en una tabla de Excel. Si no lo hace, puede convertir rápidamente la lista en una tabla si selecciona cualquier celda del rango y presiona Ctrl+T.
 
 Haga clic en la celda de la hoja de cálculo donde quiera crear la lista desplegable.
@@ -141,7 +140,6 @@ En la pestaña Configuración, en el cuadro Permitir, haga clic en Lista. Haga c
 lista desplegable con opciones: solo se debe seleccionar los opciones cambiarles el nombres A5 -> "Procesos" de esa forma cuando se haga la lista desplegable tendrá múltiples opciones. 
 
 # Clase 14 - Cómo separar y juntar texto
-
 Remover las fórmulas y dejar solo el resultadi: Selecciona las fórmulas que quieres cambiar con Cmd + C, luego Home > Paste > Values
 
 Para separar 1 dato número como una fecha: +month(celda de la fecha) > inicio > formato fecha
@@ -157,7 +155,6 @@ Separar el dato a la derecha: =right(dato a la derecha; # de caracteres que se q
 Separar el dato a la izquierda: = left(dato a la izquierda; # de caracteres que se quieren coger del dato)
 
 # Clase 15 - Fórmulas básicas
-
 Estás operaciones se hace de manera absoluta
 
 Sumar: =SUM/SUMAR(dato1;dato2 "o" seleccionar toda la fila) 
@@ -171,7 +168,6 @@ Redondear: =ROUND/REDONDEAR(dato1;# de decimales)
 En la misma celda sumar/redondear: =ROUND(SUMA(dato1;dato2);0)
 
 # Clase 16 - Fórmulas con SUMAR.SI, PROMEDIO.SI y CONTAR.SI
-
 Estás operaciones se hace de manera relativa
 
 Seleccionar datos > datos > filtrar > dato buscado 
@@ -185,7 +181,6 @@ Contar.Si/COUNTIF: (rango; "Criterio")
 Función de número aleatorio en inglés es +RANDBETWEEN()
 
 # Clase 17 - Nombrar rangos y hacer operaciones
-
 Se pueden nombrar los rangos al seleccionarlos y cambiarles el nombre en la parte superior izquierda. 
 
 Al realizar la fórmula:
@@ -195,7 +190,6 @@ Al realizar la fórmula:
 Eliminar espacios: control + f y reemplazar todo por nada, automáticamente se reemplazan/en el buscador de la hoja de excel y darle en la lupa "búsqueda avanzada"
 
 # Clase 18 - Promedio ponderado
-
 Para calcular el promedio de calificaciones, cada trabajo/ventas tiene un procentaje o peso diferente. 
 
 Promedio general (se le asigna el mismo peso a cada valor): =PROMEDIO(variable A;Variable E) 
@@ -207,7 +201,6 @@ Promedio ponderado forma 2 (simple): =SUMAPRODUCTO(H2:H8;I2:I8)
   
 
 # Clase 19 - Funciones y fórmulas útiles para tu día a día (resumen hasta ahora)
-
 BuscarV: Use BUSCARV cuando necesite buscar elementos en una tabla o en un rango por fila. Por ejemplo, busque un precio de una parte de Automotive por el número de pieza o busque un nombre de empleado basándose en su identificador de empleado.
 
 BuscarH: Busca un valor en la fila superior de una tabla o una matriz de valores y devuelve un valor en la misma columna de una fila especificada en la tabla o matriz. Use BUSCARH cuando los valores de comparación se encuentren en una fila en la parte superior de una tabla de datos y desee encontrar información que se halle dentro de un número especificado de filas.
@@ -243,7 +236,19 @@ Redondear: La función REDONDEAR redondea un número a un número de decimales e
 Promedio ponderado: La función SUMAPRODUCTO devuelve la suma de los productos de los rangos o matrices correspondientes. La operación predeterminada es la multiplicación, pero también es posible sumar, restar y dividir.
 
 # Clase 20 - Fórmulas condicionales
+2 valores y se necesita hacer una a.) verificación (número mayor, menos o igual) entre el primero o el segundo b.) dependiendo del resultado se va a querer una acción dependiendo si es verdadero o falso. 
 
+= si(condición;acción a;acción b)
+= si(valor celda > valor celda;v;f)
+Ejemplo con verdadero/falso: =+SI(I10>800;"Aplica bono";"No pasa nada") *siempre poner las comillas para que sean tomadas en cuenta*
+Ejemplo con verdadero/falso/igual: =+SI(I10>800;"Aplica bono";SI(I10=800;"falta poco"; "No pasa nada"))
+
+# Clase 21 - Formatos condicionales y el formato semáforo
+Para poder aplicar un color a las celdas: escoger toda la columna > ir a inicio > escoger formato condicional > darle en más reglas > estilo clásico > solo aplicar en las celdas que contengan > valor de las celdas > igual a > Aplica bono
+Para poder aplicar un color a las celdas (3 colores): escoger toda la columna > ir a inicio > escoger formato condicional > darle en más reglas > 3 colores (asegurarse que los tres colores sean distintos). 
+  *Los colores en degrade según que tan alto o bajo está el precio según la condición elegida*
+  
+# Clase 22 - Tabla dinámica
 
 
 
