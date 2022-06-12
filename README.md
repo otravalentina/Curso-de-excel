@@ -249,8 +249,13 @@ Para poder aplicar un color a las celdas (3 colores): escoger toda la columna > 
   *Los colores en degrade según que tan alto o bajo está el precio según la condición elegida*
   
 # Clase 22 - Tabla dinámica
+Tabla dinámica: Seleccionar los datos que quieren ser incluidos en la tabla dinámica > insertar > Tabla > Tabla dinámica > hoja nueva
 
+Una vez la tabla hecha, si tienes una tabla muy grande debes elegir que variables poner en las columnas y qué otras en las filas (arrastrarlos)
 
+Para editar la tabla hacer control + click y así se podrá editar el diseño, color, letra de la tabla, etc. 
+
+Para hacer operaciones con los datos de una tabla dinámica: Entrar a la tabla dinámica > Análisis de tabla dinámica > campo calculado > Nombre de la columna > Fórmula > "= venta/cantidad > sumar > aceptar
 
 
 
