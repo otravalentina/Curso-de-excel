@@ -257,7 +257,10 @@ Para editar la tabla hacer control + click y así se podrá editar el diseño, c
 
 Para hacer operaciones con los datos de una tabla dinámica: Entrar a la tabla dinámica > Análisis de tabla dinámica > campo calculado > Nombre de la columna > Fórmula > "= venta/cantidad > sumar > aceptar
 
+# Clase 23 - Gráficas
+Gráficos: seleccionar tabla > insertar > gráfico de elección > diseño
 
+# Clase 24 - Gráficas dinámicas y minigráficas
 
 
 
