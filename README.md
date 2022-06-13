@@ -259,6 +259,7 @@ Para hacer operaciones con los datos de una tabla dinámica: Entrar a la tabla d
 
 # Clase 23 - Gráficas
 Gráficos: seleccionar tabla > insertar > gráfico de elección > diseño
+![Resumen de la clase de excel](https://github.com/otravalentina/Curso-de-excel/blob/main/Screenshot_101-bedb8b9a-7134-4f31-b72b-86e8af05e605.jpg.png.jpeg)
 
 # Clase 24 - Gráficas dinámicas y minigráficas
 
