@@ -265,6 +265,26 @@ Gráficos: seleccionar tabla > insertar > gráfico de elección > diseño
 
 ![Resumen de la clase de excel](https://github.com/otravalentina/Curso-de-excel/blob/main/Screenshot_102-0f32a875-ca85-4605-8647-842af82a972f.jpg.png.jpeg)
 
+# Clase 25 - Protger la información
+Proteger todo el documento: Control + A > Inicio > proteger > Número > Bloqueada > revisar > proteger hoja > contraseña (para poder modificar)
+Desproteger solo una celda: pararse en la celda > número > protgeger > quitar lo de bloquear 
+Impedir que se añada otra hoja al libro: proteger libro > contraseña > check en la estructura del libro 
+
+# Clase 25 - Imprimir
+Tip 1: Si sólo quieren imprimir una área que seleccionaron, no es necesario definir el área de impresión. Pueden hacerlo de manera rápida:
+1 - Seleccionen el rango que desean imprimir.
+2 - Ir a Archivo->Imprimir
+3 - En la opción que por defecto está en “Imprimir hojas activas” Seleccionan "Impirmir Selección"
+4- Click imprimir.
+
+tip 2: Nunca se confien de la vista previa de impresión, impriman en un pdf primero antes de gastar papel y si les parece como se ve, pueden proceder a imprimir fisicamente.
+tip 3: Imprimir filas o columnas intercaladas. Por ejemplo, quieren imprimir solo las columnas A, B, E y F.
+
+1 - Ocultar las columnas o filas que no deseamos imprimir. 
+2 - Seleccionar las columnas visibles, que son las deseadas. 
+3 - Configurar el área de impresión como en la clase: Ir a menú Diseño de página -> Área de impresión -> Establecer área de impresión -> Vista preliminar
+4 - Convertir a PDF o imprimir si es muy necesario.
+
 
 
 
