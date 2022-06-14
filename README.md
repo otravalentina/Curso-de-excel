@@ -263,7 +263,7 @@ Gráficos: seleccionar tabla > insertar > gráfico de elección > diseño
 
 # Clase 24 - Gráficas dinámicas y minigráficas
 
-
+![Resumen de la clase de excel](https://github.com/otravalentina/Curso-de-excel/blob/main/Screenshot_102-0f32a875-ca85-4605-8647-842af82a972f.jpg.png.jpeg)
 
 
 
