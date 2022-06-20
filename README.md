@@ -270,7 +270,7 @@ Proteger todo el documento: Control + A > Inicio > proteger > Número > Bloquead
 Desproteger solo una celda: pararse en la celda > número > protgeger > quitar lo de bloquear 
 Impedir que se añada otra hoja al libro: proteger libro > contraseña > check en la estructura del libro 
 
-# Clase 25 - Imprimir
+# Clase 26 - Imprimir
 Tip 1: Si sólo quieren imprimir una área que seleccionaron, no es necesario definir el área de impresión. Pueden hacerlo de manera rápida:
 1 - Seleccionen el rango que desean imprimir.
 2 - Ir a Archivo->Imprimir
@@ -284,6 +284,18 @@ tip 3: Imprimir filas o columnas intercaladas. Por ejemplo, quieren imprimir sol
 2 - Seleccionar las columnas visibles, que son las deseadas. 
 3 - Configurar el área de impresión como en la clase: Ir a menú Diseño de página -> Área de impresión -> Establecer área de impresión -> Vista preliminar
 4 - Convertir a PDF o imprimir si es muy necesario.
+
+# Clase 27 - Crea un menú a tú reporte
+Seleccionar columnas/filas darle ctrl + click y darle en ocultar (hasta el final para que se genere un espacio en gris). 
+
+Crear hipervínculo: insertar > ilustraciones > formas > (la de preferencia) > "escribir un nombre" > click + ctrl > hipervínculo > seleccionar criterios (si es una hoja creada o una hoja por crear...) 
+
+
+
+
+
+
+
 
 
 
